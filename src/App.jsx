@@ -146,7 +146,7 @@ function App() {
           </div>
         ) : (
           <div className='space-y-6 w-full'>
-            <div className='grid lg:grid-cols-2 gap-6'>
+            <div className='flex flex-col gap-6'>
               <div className='bg-gradient-to-br from-blue-950/40 to-sky-950/50 backdrop-blur-sm border border-indigo-400/30 rounded-2xl shadow-2xl p-8 space-y-4'>
                 <div>
                   <h3 className='text-lg font-semibold text-emerald-300 mb-1'>Задача</h3>
